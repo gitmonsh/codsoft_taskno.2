@@ -1,0 +1,142 @@
+body, h1, h2, h3, p, ul, li, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pp{
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+header p {
+    font-size: 1rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+#about img {
+    max-width: 35%;
+    height: auto;
+    border-radius: 50%;
+    margin: 1rem auto;
+    display: block;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.project {
+    background-color: mintcream;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    animation: fadeInLeft 1s ease-in-out;
+    transition: transform 0.3s;
+}
+
+p{
+    text-align: justify;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-list li {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#resume a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+#resume a:hover {
+    color: #FF6B6B;
+}
+
+.ppp{
+    text-align:  center;
+}
+
+.resume{
+    color: aquamarine;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+}
